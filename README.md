@@ -37,3 +37,6 @@ min_frequency: the low frequency of the ocarina (when all holes are covered), de
 max_frequency: the high frequency of the ocarina (when all holes are uncovered), default is 1310  
 confidence_threshold: How close the frequency should be before snapping to a certain keyframe, default 0.8  
 parameter_name": The vtubestudio parameter name, change this if for some reason you have a conflicting parameter, default is "ParamOcarinaNote"
+
+# AI Disclosure
+Gemini was used to assist in coding
