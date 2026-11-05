@@ -24,11 +24,11 @@ The script requires websockets, pyaudio, aubio, and numpy. Make sure you install
 5. The 1.0 keyframe is a high note with all holes uncovered.  
 
 # Vtube Studio Setup
-1. In the General settings, ensure that Vtube Studio Plugins "Start API" toggle is enabled. Make sure the port is the same as in the config file.
-2. Run the compiled script and make sure it connects to the VTS API
-3. In the Model settings, create a new model control.
-   3a. Set the "Input" to "ParamOcarinaNote" (or whatever you have the custom parameter name set as in the config file). If this option isn't showing up, it's because the plugin isn't sending any data to VTS to create the custom input parameter. 
-   3b. Set the "Output" to "OcarinaNote" (or whatever you named the parameter in Cubism)
+1. In the General settings, ensure that Vtube Studio Plugins "Start API" toggle is enabled. Make sure the port is the same as in the config file.  
+2. Run the compiled script and make sure it connects to the VTS API  
+3. In the Model settings, create a new model control.  
+   3a. Set the "Input" to "ParamOcarinaNote" (or whatever you have the custom parameter name set as in the config file). If this option isn't showing up, it's because the plugin isn't sending any data to VTS to create the custom input parameter.   
+   3b. Set the "Output" to "OcarinaNote" (or whatever you named the parameter in Cubism)  
 
    
 # config.json
