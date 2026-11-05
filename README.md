@@ -8,20 +8,20 @@ The script requires websockets, pyaudio, aubio, and numpy. Make sure you install
 1. Create a new parameter. Recommend calling it "OcarinaNote" but the name doesn't matter as long as it's clear and can be found in VTube Studio
 2. Set 12 keyframes roughly evenly spaced.
 3. The 0 keyframe will be the idle pose where the instrument isn't being played
-4. In ascending order from the 0.08 keyframe onward, each is one note on the ocarina, from the low C4 up to the F5 note. Reference for accurate ocarina fingering can be found in this video: https://www.youtube.com/watch?v=L9-qLMfZ7B0
-  Text reference for ocarina fingerings
-     0.08	C4	All 10 main holes covered
-     0.17	D4	Right Pinky lifted
-     0.25	E4	Right Ring lifted
-     0.33	F4	Right Middle lifted
-     0.42	G4	Right Index lifted
-     0.50	A4	Left Ring lifted (On the left hand, the pinky is NOT lifted first)
-     0.58	B4	Left Middle lifted
-     0.67	C5	Left Index lifted
-     0.75	D5	Left Pinky lifted
-     0.83	E5	Right Thumb lifted
-     0.92	F5	Left Thumb lifted (All open)
-5. The 1.0 keyframe is a high note with all holes uncovered.
+4. In ascending order from the 0.08 keyframe onward, each is one note on the ocarina, from the low C4 up to the F5 note. Reference for accurate ocarina fingering can be found in this video: https://www.youtube.com/watch?v=L9-qLMfZ7B0  
+  Text reference for ocarina fingerings  
+     0.08	C4	All 10 main holes covered  
+     0.17	D4	Right Pinky lifted  
+     0.25	E4	Right Ring lifted  
+     0.33	F4	Right Middle lifted  
+     0.42	G4	Right Index lifted  
+     0.50	A4	Left Ring lifted (On the left hand, the pinky is NOT lifted first)  
+     0.58	B4	Left Middle lifted  
+     0.67	C5	Left Index lifted  
+     0.75	D5	Left Pinky lifted  
+     0.83	E5	Right Thumb lifted  
+     0.92	F5	Left Thumb lifted (All open)  
+5. The 1.0 keyframe is a high note with all holes uncovered.  
 
 # Vtube Studio Setup
 1. In the General settings, ensure that Vtube Studio Plugins "Start API" toggle is enabled. Make sure the port is the same as in the config file.
